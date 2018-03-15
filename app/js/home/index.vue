@@ -11,6 +11,7 @@ export default {
 
 <style lang="scss" module>
   @import '../../css/reset.scss';
+  console.log('log')
   .home{
     color: red;
     font-size: 80px;
