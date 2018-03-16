@@ -24,7 +24,8 @@
     }
 </script>
 <style lang="scss">
-@import "../../element.scss";
+@import "../../css/element.scss";
+
 .panel{
     @include panel
 }
