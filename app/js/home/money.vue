@@ -50,7 +50,7 @@ export default {
         @include panel;
         .content{
         @include flex(row);
-        justify-content: space-around;
+        justify-content: space-around;/**/
         box-sizing: border-box;
         &:after{
             content: " ";
@@ -67,55 +67,55 @@ export default {
             width: 50%;
             box-sizing: border-box;
             &:after{
-            content: " ";
-            width: 1px;
-            height: 136px;
-            display: block;
-            position: absolute;
-            top: 50%;
-            right: 0;
-            margin-top: -68px;
+                content: " ";
+                width: 1px;
+                height: 136px;
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                margin-top: -68px;
             border-right: 1px solid #eee;
             }
             &:nth-child(2n){
-            &:after{
-                display: none;
+                &:after{
+                    display: none;
             }
             }
             padding: 34px 16px;
             dt{
-            font-size: 30px;
-            line-height: 42px;
-            color: #333;
-            span{
-                font-size:22px;
-                color:#ff5155;
-                border: 1px solid #ff5155;
-                padding: 0 8px;
-                vertical-align: 1px;
-                margin-left: 2px;
-            }
+                font-size: 30px;
+                line-height: 42px;
+                color: #333;
+                span{
+                    font-size:22px;
+                    color:#ff5155;
+                    border: 1px solid #ff5155;
+                    padding: 0 8px;
+                    vertical-align: 1px;
+                    margin-left: 2px;
+                }
             }
             dd{
-            &:nth-child(2){
-                font-weight: 700;
-                font-size: 44px;
-                height: 58px;
-                line-height: 58px;
-                color: #FF5155;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                overflow: hidden;
-            }
-            &:nth-child(3){
-                font-size: 24px;
-                height: 34px;
-                line-height: 34px;
-                color: #999;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                overflow: hidden;
-            }
+                &:nth-child(2){
+                    font-weight: 700;
+                    font-size: 44px;
+                    height: 58px;
+                    line-height: 58px;
+                    color: #FF5155;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+                &:nth-child(3){
+                    font-size: 24px;
+                    height: 34px;
+                    line-height: 34px;
+                    color: #999;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
             }
 
         }
